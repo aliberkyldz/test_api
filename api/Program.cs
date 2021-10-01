@@ -23,6 +23,8 @@ namespace api
                     webBuilder.UseStartup<Startup>();
                     webBuilder.UseUrls("http://*:1000");
 
+
+
                 });
     }
 }
