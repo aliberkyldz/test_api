@@ -21,10 +21,7 @@ namespace api
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                    webBuilder.UseUrls("http://*:1000");
-
-
-
+                    webBuilder.UseUrls("https://*:1000");
                 });
     }
 }
